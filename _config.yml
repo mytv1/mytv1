@@ -61,3 +61,5 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+baseurl: /mytv1
