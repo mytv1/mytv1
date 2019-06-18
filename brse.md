@@ -284,7 +284,7 @@ Ví dụ đôi khi ta chỉ muốn tìm file template view để lấy ra text t
 Đến đây mình xin kết thúc phần các kỹ năng mình đề xuất nên có khi làm BrSE. Tiếp theo mình xin chia sẻ kinh nghiệm xử lý một số tình huống mà một BrSE có thể sẽ hay gặp khi làm dự án.
 
 # 6. Xử lý tình huống
-6.1. Tiếng Nhật mình khách không hiểu, tiếng Nhật khách mình không hiểu.
+## 6.1. Tiếng Nhật mình khách không hiểu, tiếng Nhật khách mình không hiểu.
 Đây chắc là tình huống dễ xảy ra và hay xảy ra nhất với BrSE?
 
 + Xử lý tạm thời : hỏi lại
