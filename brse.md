@@ -328,7 +328,7 @@ Tức là mình thấy có nhiều tình huống mà thay vì đơn thuần dị
 
 Có lẽ công việc BrSE còn rất nhiều các xử lý tình huống khác nữa nhưng tạm thời mình xin dừng ở đây, có dịp sẽ bổ sung sau :)
 
-# Kết
+# 7. Kết
 
 Có thể bạn đọc thấy chia sẻ của mình hơi ôm đồm nhiều mảng nên hơi khó nắm bắt, có lẽ chia ra thành từng phần nhỏ chia vào nhiều bài thì dễ đọc hiểu hơn, tiếc là mình không có nhiều thời gian để viết nhiều bài nên tạm thời tóm tắt hết vào 1 bài, có thể sau có thời gian mình sẽ tách ra và đi sâu hơn :)
 
