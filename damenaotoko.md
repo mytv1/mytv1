@@ -74,7 +74,7 @@ Sau khi đã nắm được đặc điểm của đàn ông hỏng vậy thì ti
 ## 2.1. Giữ lời hứa
 Ngược lại với đàn ông hỏng hứa hẹn không rõ ràng thì đàn ông tốt rất giữ lời hứa.
 
-** Bạn có thể đánh giá luôn người đàn ông giữ lời hứa là một người chính trực **
+**Bạn có thể đánh giá luôn người đàn ông giữ lời hứa là một người chính trực**
 
 Một người đàn ông không chính trực sẽ nhiều khả năng chi phối đến bản thân bạn. Ví dụ như đột nhiên huỷ phút cuối cuộc hẹn với bạn, đột nhiên không liên lạc được, làm bạn cảm thấy rất khó nghĩ về anh ta. Tình yêu như vậy thì không thể hạnh phúc được đúng không ạ.
 
@@ -87,7 +87,7 @@ Có chính kiến được cho là một đặc điểm của đàn ông tốt.
 
 Người đàn ông có chính kiến thì cũng mang trong mình sức mạnh để điềm tĩnh với khó khăn. Thêm nữa là vì suy nghĩ bản thân không bị giao động nên rất đáng nhờ cậy.
 
-** Phụ nữ ở bên cạnh người đàn ông đáng nhờ cậy cảm thấy rất yên tâm phải không ạ **
+**Phụ nữ ở bên cạnh người đàn ông đáng nhờ cậy cảm thấy rất yên tâm phải không ạ**
 
 Ở bên cạnh đàn ông có chính kiến khả năng cao là bạn sẽ cảm thấy bồn chồn, lo lắng. Vậy nên mình khuyên hãy chọn người có chính kiến.
 
