@@ -1,15 +1,15 @@
 ---
 layout: markdown
-title: 日本-ベトナムの共通史年表
+title: 日本-ベトナムの歴史年表
 ---
-<h1 class="text-center">日本-ベトナムの共通史年表</h1>
+<h1 class="text-center">Lịch sử Việt Nam - Nhật Bản</h1>
 
 * Do not remove this line (it will not be displayed)
 {:toc}
 
 <div>
   <table class="table">
-    {% for row in site.data.authors %}
+    {% for row in site.data.history_jp_vi_vi %}
       {% if forloop.first %}
       <tr>
         {% for pair in row %}
