@@ -1,6 +1,6 @@
 ---
 layout: markdown
-title: 日本-ベトナムの歴史年表
+title: Lịch sử Việt Nam - Nhật Bản
 ---
 <h1 class="text-center">Lịch sử Việt Nam - Nhật Bản</h1>
 
