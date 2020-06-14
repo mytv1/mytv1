@@ -1,8 +1,8 @@
 ---
 layout: markdown
-title: Lịch sử Việt Nam - Nhật Bản
+title: Niên biểu lịch sử Việt Nam - Nhật Bản
 ---
-<h1 class="text-center">Lịch sử Việt Nam - Nhật Bản</h1>
+<h1 class="text-center">Niên biểu lịch sử Việt Nam - Nhật Bản</h1>
 
 * Do not remove this line (it will not be displayed)
 {:toc}
