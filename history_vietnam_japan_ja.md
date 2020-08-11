@@ -7,7 +7,7 @@ title: 日本-ベトナムの歴史年表
 * Do not remove this line (it will not be displayed)
 {:toc}
 
-<div>
+<div id="history">
   <table class="table">
     {% for row in site.data.history_jp_vi_ja %}
       {% if forloop.first %}

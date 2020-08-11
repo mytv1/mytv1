@@ -7,7 +7,7 @@ title: Niên biểu lịch sử Việt Nam - Nhật Bản
 * Do not remove this line (it will not be displayed)
 {:toc}
 
-<div>
+<div id="history">
   <table class="table">
     {% for row in site.data.history_jp_vi_vi %}
       {% if forloop.first %}
