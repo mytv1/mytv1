@@ -10,11 +10,17 @@ title: BrSE Guidelines
 
 # 1.Khởi đầu
 ## 1.1. Lời nói đầu
-Tài liệu này nói về định nghĩa cũng như vai trò của BrSE theo cách hiểu của bản thân mình.
+Hiện nay Outsourcing hay Offshore là một công việc đóng góp rất nhiều vào phát triển kinh tế và giao lưu văn hoá của Việt Nam và Nhật Bản.
+
+Đóng góp một vai trò quan trọng trong đó là vai trò của BrSE, đối với các bạn mới bắt đầu vào công việc BrSE có thể sẽ cần nhiều tài liệu để hiểu về công việc này, mình xin đóng góp một phần trong số tài liệu đó.
+
+Vậy hi vọng tài liệu này sẽ có ích cho công việc của các bạn.
+
+Vậy mình xin bắt đầu!
 
 Trước khi đi vào nói về về vai trò BrSE, mình xin giải thích trước một số khái niệm liên quan trong một dự án Outsource IT, đây cũng là tiền đề để ta nắm rõ hơn nội dung các phần sau.
 
-## 1.2. Một số khái niệm liên quan 
+## 1.2. Một số khái niệm liên quan
 ### 1.2.1. Project Offshore là gì?
 Offshore là khái niệm đặc trưng cho thị trường Nhật Bản, nói đến việc thực hiện project nhưng với một phần nhân lực nằm ở nước ngoài.
 
@@ -22,9 +28,9 @@ Nước ngoài ở đây nhiều phần là Ấn Độ, Trung Quốc hoặc Vi�
 
 Bài viết của mình chỉ đề cập với ngữ cảnh nội dung project là về IT và thị trường là Việt Nam.
 
-#### Thành phần tham gia 
+#### Thành phần tham gia
 
-1. Khách hàng 
+1. Khách hàng
 2. Nhân viên kinh doanh（Sale）
 3. Quản lý dự án（PM）
 4. Kỹ sư cầu nối（BrSE）
@@ -51,7 +57,7 @@ Mình định nghĩa phạm vi dự án theo số lượng thành viên công ty
 ### 1.2.3. Process phát triển
 Trong tài liệu này mình chỉ xét với Process Water Flow, các process khác như Align, Scrum thì không nói đến nhưng hi vọng các bạn có thể tham khảo để áp dụng.
 
-## 1.3. Vai trò từng thành viên tham gia dự án 
+## 1.3. Vai trò từng thành viên tham gia dự án
 ### 1.3.1. Khách hàng
 Khách hàng là đối tác, tác nhân trả tiền cho công ty Outsource để thực hiện project.
 
@@ -71,13 +77,13 @@ Khách hàng là đối tác, tác nhân trả tiền cho công ty Outsource đ�
 ### 1.3.2. Nhân viên kinh doanh（Sale）
 **Vai trò đảm nhiệm**
 
-Nhân viên kinh doanh đảm nhiệm việc trao đổi, xác nhận với khách hàng các 
+Nhân viên kinh doanh đảm nhiệm việc trao đổi, xác nhận với khách hàng các
 thông tin dưới
 
 1. Phạm vi Project, khái quát Project
 2. Cách thức thanh toán, chi tiết thanh toán
 3. Thêm giảm nhân sự
-4. Thành lập hợp đồng giữa 2 bên 
+4. Thành lập hợp đồng giữa 2 bên
 5. Theo dõi tiến độ thực hiện dự án
 
 ### 1.3.3. Quản lý dự án（PM）
@@ -98,8 +104,8 @@ PM là viết tắt của Project Manager, người thực hiện quản lý d�
 4. Quản lý chất lượng (Quantity)
   + Quản lý và thực hiện việc thực hiện sản phẩm theo đúng mong muốn về chất lượng của khách hàng.
 
-5. Quản lý nhân sự 
-  + Quản lý, vận hành, đảm bảo nhân lực thực hiện được project 
+5. Quản lý nhân sự
+  + Quản lý, vận hành, đảm bảo nhân lực thực hiện được project
 
 **Chú ý**
 + Theo PMBOK thì lĩnh vực công việc của PM rất nhiều, ở trên chỉ là 1 phần trong đó
@@ -281,284 +287,265 @@ Thông thường BrSE chính là người xuất thân từ hoặc là PE hoặc
 
 Trên đây mình đã trình bày vai trò của BrSE chung cho tất cả công đoạn của dự án, tiếp theo mình sẽ trình bày vai trò riêng theo từng công đoạn.
 
-### 2.2.2.要件定義（お客さん）
-お客さんは要件定義を作成する時に、オフショア側が実施する可能性などについてBrSEに聞くことがあります。
-
-例えば：
-+ この機能はリッケイの開発メンバーが対応できるか？
-+ この機能を対応すれば、どのぐらい時間がかかるか？人数は何人で済むか？
-
-その時にオフショア側（リッケイベトナム）に確認し、お客さんに回答することになります。
-
-### 2.2.3.基本設計（お客さん／オフショア会社）
-+ 基本設計書を作成
-  + PEのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 基本設計書をレビュー
-+ 基本設計書を翻訳
-  + Comtorのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ テスト計画書作成
-  + Testerのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ テスト計画書レビュー
-+ テスト計画書を翻訳
-  + Comtorのタスク、タスクの担当はPMの作業分担支持に従う。						
+### 2.2.2.Định nghĩa yêu cầu（Khách hàng）
+Trong giai đoạn định nghĩa yêu cầu, khách hàng là người thực hiện tạo tài liệu yêu cầu, khi đó phía khách hàng sẽ hỏi BrSE về việc những yêu cầu này phía offshore có thể thực hiện được không
+
+Ví dụ：
++ Tính năng này đội Offshore có thể thực hiện được không?
++ Tính năng này nếu thực hiện thì mất khoảng bao nhiêu thời gian, cần bao nhiêu nhân lực?
+
+Những lúc thế này thì thường BrSE sẽ xác nhận với đội Offshore trước rồi trả lời lại khách hàng.
+
+### 2.2.3.Thiết kế cơ bản/hệ thống（Khách hàng／Công ty offshore）
++ Tạo tài liệu thiết kế cơ bản
+  + Đây là task của PE, trao đổi với PM trước khi thực hiện
++ Review tài liệu thiết kế cơ bản
++ Dịch tài liệu thiết kế cơ bản
+  + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
++ Tạo kế hoạch test
+  + Đây là task của Tester, trao đổi với PM trước khi thực hiện
++ Review kế hoạch test
++ Dịch kế hoạch test
+  + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
+
+### 2.2.4.Thiết kế chi tiết（Công ty offshore）
++ Tạo tài liệu thiết kế chi tiết
+  + Đây là task của PE, trao đổi với PM trước khi thực hiện
++ Review tài liệu thiết kế chi tiết
+  + Đây là task của PE, trao đổi với PM trước khi thực hiện
++ Dịch tài liệu thiết kế chi tiết
+  + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
+
+### 2.2.5.Implement（Công ty offshore）
++ Programing
+  + Đây là task của PE, trao đổi với PM trước khi thực hiện
+
+\* BrSE xuất thân từ SE thường có xu hướng ưu tiên các task SE hơn task BrSE, BrSE cần chú ý thực hiện công việc của mình, ưu tiên công việc toàn thể hơn.
+
++ Review code
+  + Đây là task của PE, trao đổi với PM trước khi thực hiện
+
+### 2.2.6.Test đơn（Công ty offshore）
++ Tạo tài liệu test đơn
+  + こちらはTesterのタスク。タスクの担当はPMの作業分担支持に従う。
+  + Đây là task của PE, trao đổi với PM trước khi thực hiện
++ Review tài liệu test đơn
++ Dịch tài liệu test đơn
+  + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
++ Thực hiện test đơn
+  + Đây là task của Tester, trao đổi với PM trước khi thực hiện
++ Review kết quả test đơn
++ Dịch tài liệu test đơn
+  + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
+
+### 2.2.7.Test tích hợp（Khách hàng／Công ty offshore）
++ Tạo tài liệu test tích hợp
+  + Đây là task của Tester, trao đổi với PM trước khi thực hiện
++ Review tài liệu test tích hợp
++ Dịch tài liệu test tích hợp
+  + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
++ Thực hiện test tích hợp
+  + Đây là task của Tester, trao đổi với PM trước khi thực hiện
++ Review kết quả test tích hợp
++ Dịch kết quả test tích hợp
+  + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
+
+### 2.2.8.Tiếp nhận sản phẩm（Khách hàng／Công ty offshore）
++ Tạo tài liệu test tiếp nhận sản phẩm
++ Thực hiện test tiếp nhận
+  + Đây là task của PM, trao đổi với PM trước khi thực hiện
++ Dịch kết quả test tiếp nhận
+  + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
+
+# 3. Kỹ năng BrSE
+## 3.1. Communication
+### 3.1.1. Đối tượng
+#### 3.1.1.1. Với khách hàng
+BrSE cần lý giải được vấn đề mà khách hàng truyền đạt.
 
-### 2.2.4.詳細設計（オフショア会社）
-+ 詳細仕様書作成
-  + PEのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 詳細仕様書レビュー
-  + PEのタスク、タスクの担当はPMの作業分担支持に従う。								
-+ 詳細仕様書を翻訳
-  + Comtorのタスク、タスクの担当はPMの作業分担支持に従う。						
+BrSE cần truyền đạt được đến khách hàng ý kiến, đánh giá từ phía team offshore.
 
-### 2.2.5.実装（オフショア会社）
-+ プログラミング
-  + PEのタスク、タスクの担当はPMの作業分担支持に従う。
-  + SE出身のBrSEは他のタスクの優先度をよそに、SEの課題を重視しすぎる傾向があります。全体、または他のタスクの優先度に注意を払うべきです
-+ コードレビュー
+**Vấn đề hay gặp**
++ **Không hiểu được vấn đề khách hàng truyền đạt (Vấn đề quan trọng)**
++ Chỉ truyền đạt ý kiến bản thân mình, không truyền đạt ý kiến của team offshore
++ Chỉ trao đổi được bằng text với khách hàng, không thể trao đổi qua lời nói.
 
-### 2.2.6.単体テスト（オフショア会社）
-+ 単体テスト項目書作成
-  + Testerのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 単体テスト項目書レビュー									
-+ 単体テスト項目書翻訳
-  + Comtorのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 単体テスト実施
-  + Testerのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 単体テスト結果レビュー									
-+ 単体テスト結果翻訳
-  + Comtorのタスク、タスクの担当はPMの作業分担支持に従う。
+#### 3.1.1.2. Với PM
+BrSE cần hiểu được tình trạng hiện tại của team từ truyền đạt của PM.
 
-### 2.2.7.結合テスト（お客さん／オフショア会社）
-+ 結合テスト項目書作成
-  + Testerのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 結合テスト項目書レビュー									
-+ 結合テスト項目書翻訳
-  + Comtorのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 結合テスト実施
-  + Testerのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 結合テスト結果レビュー									
-+ 結合テスト結果翻訳
-  + Comtorのタスク、タスクの担当はPMの作業分担支持に従う。						
+Truyền đạt đến khách hàng ý kiến, mong muốn của PM cũng như đại diện team offshore
 
-### 2.2.8.受付（お客さん／オフショア会社）
-+ 受入テスト対応
-  + PMのタスク、タスクの担当はPMの作業分担支持に従う。						
-+ 受入テストを翻訳
-  + Comtorのタスク、タスクの担当はPMの作業分担支持に従う。						
+**Vấn đề hay gặp**
++ Khi giao tiếp BrSE chỉ chú ý đến task của mình, không chú ý đến task của member khác
++ Khi giao tiếp BrSE chỉ chú ý đến task của mình, không chú ý đến tiến độ toàn thể
 
-# 3. BrSEのスキル
-## 3.1. コミュニケーション
-### 3.1.1. 相手
-#### 3.1.1.1. お客さんと
-お客さんが言ったことが理解できること
+#### 3.1.1.3. Với nhân viên kinh doanh
+BrSE cần truyền đạt được trạng thái hiện tại của project cũng như các vấn đề về mặt hợp đồng
 
-自分の意見／チームの意見、伝えたいことが伝わること
+#### 3.1.1.4. Với người phát triển
 
-■ よくある問題
+BrSE cần truyền đạt được các vấn đề, giải thích được cụ thể về mặt kỹ thuật
 
-+ お客さんが伝えたことを理解できない
+**Vấn đề hay gặp**
++ Vấn đề kỹ thuật liên quan bản thân cũng không hiểu được, dẫn đến giải quyết vấn đề cũng bị chậm lại
 
-+ 自分の意見だけ伝えた、チームの意見を伝えなかった
+### 3.1.2. Ngôn ngữ
+#### 3.1.2.1. Tiếng Nhật
 
-+ 文字ベースのみ話せる、口頭で話せない
++ Tiếng Nhật là ngôn ngữ sử dụng khi giao tiếp với khách hàng
++ Đội phát triển cơ bản không hiểu cũng như không xác nhận được
+  + --> Do đó cần dịch sang tiếng Việt hoàn chỉnh, tránh đề team phải dùng google translate
 
-#### 3.1.1.2. PMと
-チームメンバーの状況、説明が理解できること
+#### 3.1.2.2. Tiếng Việt
 
-お客さんの要求／自分の意見が伝わること
++ Tiếng Việt là ngôn ngữ sử dụng khi giao tiếp với team Offshore
++ Khách hàng không hiểu cũng như không xác nhận được.
 
-■ よくある問題
+### 3.1.3. Phương thức
+#### 3.1.3.1. Nhập liệu (text)
+**Lợi điểm**
++ Sau này có thể nhìn lại xác nhận lại, đánh giá lại được
++ Trao đổi theo một dòng, nhiều người có thể tham gia trao đổi được.
 
-+ 自分のタスクのみ気にする、他のメンバーのタスクに気にしない
+**Nhược điểm**
++ Tốn thời gian gõ
++ Cần năng lực diễn đạt qua văn chương
 
-+ 自分のタスクのみ気にする、全体の進捗を把握していない
+#### 3.1.3.2. Voice/Video
+**Lợi điểm**
++ Trao đổi thông tin nhanh
++ Thông qua sắc mặt, giọng nói có thể nắm được cảm xúc, thái độ của đối phương
 
-#### 3.1.1.3. 営業者と
-現状について自分のイメージが伝わること
+**Nhược điểm**
++ Sau này không kiểm chứng lại được nội dung đã trao đổi (Vậy nên cần note lại nội dung họp)
 
-#### 3.1.1.4. 開発者と
-技術的な問題を正確に伝わること
+## 3.2. Tiếng Nhật
+### 3.2.1. Tiếng nhật giao tiếp thường ngày
+Khi giao tiếp với khách hàng thì tiếng nhật thông dụng thường ngày là kỹ năng không thể thiếu.
 
-■ よくある問題
+Kỹ năng giao tiếp tiếng Nhật thường ngày đòi hỏi không chỉ về năng lực ngôn ngữ, mà bao gồm cả cách giao tiếp, cách nói chuyện, cách biểu hiện như người Nhật
 
-+ 該当する技術の話がわからない、技術の問題の解決があまりすすまない
+**Chú ý**
++ Khi nghe khách hàng giải thích về nghiệp vụ, với khách hàng là người trong giới IT thì nội dung giải thích có thể sẽ dễ hiểu hơn bởi khách hàng dùng nhiều thuật ngữ IT thông dụng. Tuy nhiên với khách hàng chuyên môn nghiệp vụ khác thì họ sẽ giải thích bằng tiếng Nhật giao tiếp thường ngày, nên nếu ta không hiểu được thì sẽ không làm việc được.
 
-### 3.1.2. 言語
-#### 3.1.2.1. 日本語
+**Vấn đề hay gặp**
++ Không hiểu được tiếng Nhật của khách hàng
 
-+ お客さんとコミュニケーションする時に使う言語
+### 3.2.2. Tiếng Nhật IT
+Khách hàng khi giải thích về hệ thống thì sẽ dùng rất nhiều thuật ngữ về IT, nên nếu không hiểu tiếng nhật IT thì cũng không lý giải được.
 
-+ チームメンバーがわからない／確認できない
+Độ khó của tiếng Nhật IT cũng phụ thuộc vào ngôn ngữ mà khách hàng sử dụng, về lý thuyết thì họ có thể dùng tiếng Anh hoặc tiếng Nhật, tuy nhiên thực tế thì đa số dùng tiếng Nhật. Nên kể cả BrSE có hiểu được nội dung đó bằng tiếng Anh đi nữa nhưng nếu không thể hiểu bằng từ tiếng Nhật tương ứng thì vẫn không hiểu được.
 
-#### 3.1.2.2. ベトナム語
+**Vấn đề hay gặp**
++ Không hiểu tiếng Nhật IT của khách hàng
 
-+ チームメンバーとコミュニケーションする時に使う言語						
+### 3.2.3. Tôn kính ngữ, khiêm nhường ngữ
+Trong môi trường làm việc tại Nhật Bản thì tôn kính ngữ, khiêm nhường ngữ được dùng rất nhiều
 
-+ お客さんがわからない／確認できない						
+Theo mình thấy thì nếu khách hàng là người dễ tính, đối với người nước ngoài nếu thỉnh thoảng dùng từ sai thì cũng có thể ở mức độ nào đó chấp nhận được. Tuy nhiên nếu dùng ngôn ngữ cẩn thận, chính xác thì sẽ được đánh giá cao hơn.
 
-### 3.1.3. 手法
-#### 3.1.3.1. 文字ベース
-■メリット
+**Vấn đề hay gặp**
++ Khi truyền đạt vấn đề, vốn dĩ ta không có ý định khiếm nhã nhưng bởi cách biểu đạt của từ ngữ đã dùng mà khách hàng có cảm giác mất thiện cảm.
 
-+ 後で振り返られる、確認できる
+## 3.3. Teamwork
+### 3.3.1. Với khách hàng
+#### 3.3.1.1. Làm việc với vai trò là một thành viên trong team phát triển của khách hàng
+1. Không chỉ task của bản thân mình, mà task của khách hàng cũng nắm được.
 
-+ 流れとして、複数人が参加できる
+Trong công việc thì không phải ta hoàn thành phần việc của mình là xong, mà kể cả phần mình xong rồi, phần người khác xong rồi, cả 2 phần có gắn kết được với nhau không cũng là vấn đề quan trọng.
 
-■デメリット
+Do vậy nên BrSE không chỉ chú ý đến task của bản thân mình, của đội offshore mà còn cần chú ý đến task liên quan của khách hàng, từ đó đảm bảo rằng tất cả các task gắn kết với nhau, đảm bảo công việc chung được thực hiện.
 
-+ タイピング時間がかかる
+Trong phạm vi có thể, BrSE nên hỗ trợ khách hàng cũng như đội phát triển của khách hàng thực hiện task.
 
-+ 言葉に表現する能力が求める
+**Vấn đề hay gặp**
++ BrSE chỉ chú đến task của bản thân và đội offshore, không quan tâm đến task của khách hàng
 
-#### 3.1.3.2. 音声／ビデオチャット
-■メリット
+2. Làm việc với vai trò không chỉ là nhân viên công ty Offshore, mà cả với vai trò là một thành viên phát triển của khách hàng
 
-+ 情報交換が早い		
+Vốn dĩ BrSE là nhân viên của công ty Offshore, nên chỉ hiểu vấn đề trên quan điểm của công ty Offshore thì cũng không sai. Tuy nhiên để hiểu thấu được công việc thì mình nghĩ cần hiểu được quan điểm của khách hàng.
 
-+ 相手の表情、事情が感じる		
+Cùng là một vấn đề, tuy nhiên nếu thay đổi quan điểm từ công ty Offshore sang quan điểm của khách hàng thì nguyên nhân cũng như cách giải quyết vấn đề cũng có khi thay đổi. Trên quan điểm của công ty Offshore thì vấn đề đã được giải quyết rồi, nhưng với khách hàng thì chưa, vấn đề vẫn còn đang nan giải, những tình huống như vậy thực tế rất nhiều.
 
-■デメリット
+Do vậy nên để giải quyết triệt để vấn đề, BrSE nên có khả năng nhìn nhận trên quan điểm của cả khách hàng.
 
-+ 後で確認できない（そのため、議事録が必要）			
+#### 3.3.1.2. Làm việc với vai trò là đối tác của khách hàng
+BrSE cần giải thích cho khách hàng hiểu những cái mà phía offshore làm được/không làm được, từ đó mà điều chỉnh, phân phối thực hiện task cho hợp lý.
 
-## 3.2. 日本語
-### 3.2.1. 日常会話
-お客さんとコミュニケーションをとるには、日常会話ができることが不可欠スキルです。
+**Vấn đề hay gặp**
++ BrSE không nắm được tình hình phía offshore, tiếp nhận cả những task khó mà phía offshore khó thực hiện.
 
-日常会話ができるには、言語能力は一つで、普段の日本人の会話仕方、話し方、表現仕方なでも必要です。
+### 3.3.2. Với team offshore
+#### 3.3.2.1. Ưu tiên lợi ích chung và team Offshore
 
-お客さんに業務を説明していただく時は、IT業界のお客さんならIT日本語で説明するのでそれである程度理解しやすいことがありますが、IT業界ではないお客さんは日常生活のことで説明し、日常のことがわからないとわからなくなります。
+BrSE không được chỉ chăm chăm vào task của mình mà không để ý để toàn thể task, task của các member offshore khác.
 
-■よくある問題
+\* Với những BrSE xuất thân thì SE thì hay có xu hướng là hay tập trung quá độ vào task SE mà không để ý đến toàn thể task. BrSE cần lưu ý đến lợi ích của toàn thể dự án mà có phân phối độ ưu tiên cho phù hợp.
 
-お客さんの日本語がわからない
+**Vấn đề hay gặp**
++ BrSE tập trung quá độ vào task SE, sao nhãng tiến độ chung toàn dự án.
 
-### 3.2.2. IT日本語		
-お客さんはシステムについてITの用語で説明することが多いので、わからないと理解できない。
+#### 3.3.2.2. Không chỉ nội dung từng task đơn lẻ mà còn nắm được sự gắn kết của các task, toàn thể
+BrSE cần không chỉ nắm được nội dung task đơn lẻ, mà phải nắm được ý nghĩa toàn thể của task, mục tiêu cuối cùng của dự án là gì. Hướng đến mục tiêu đó thì các task đơn lẻ hoàn thành xong có thể gắn kết để đạt được mục tiêu đó không, vấn đề đó cũng cần thường xuyên cân nhắc và bàn bạc với team.
 
-難易度はお客さんの言語にもよりますが、日本語で説明されることが多く、そのITのことを理解できたとしても、そのことの日本語で表現される用語がわからないと理解できない
+\* Thông thường đội offshore hay quá coi trọng nội dung của một task đơn lẻ, đôi khi những task đơn không thực sự liên kết để hướng tới kết quả chung. BrSE cần sớm nhìn nhận và chỉ ra được những điểm đó.
 
-■よくある問題
+\* Vốn dĩ vai trò này thuộc về phạm trù quản lý task, là công việc của PM hơn là BrSE, tuy nhiên BrSE thường có vai trò hiểu khách hàng hơn, nên đóng góp ý kiến của BrSE nhiều khi rất có ý nghĩa.
 
-お客さんが言ったITの用語がわからない
+**Vấn đề hay gặp**
++ Thành quả phía offshore làm bị mất giá trị.
++ Thành quả phía offshore làm hoàn thiện ở mức độ đơn lẻ, không thực sự đóng góp vào hướng tới mục tiêu chung.
 
-### 3.2.3. 尊敬語、謙譲語		
-日本の職場で、尊敬語、謙譲語はよく使われます。
+## 3.4. Ghi log cuộc họp
+### 3.4.1. Ghi log cuộc họp với khách hàng
+Đây là kỹ năng ghi lại nội dung đã nêu trong cuộc họp với khách hàng.
 
-外国人に対して、しらなくて間違えて利用されることは優しいお客さんにとってはある程度認められますが、ちゃんと利用できたら好評され、高く評価されます。
+Nội dung họp sau đó gửi lại đến khách hàng.
 
-■よくある問題
+Tuỳ trường hợp mà cũng gửi đến cho đội offshore.
 
-意図しなかった自分の日本語に対して、お客さんが生意気を感じる
+**Vấn đề hay gặp**
++ Nội dung cuộc họp không được ghi log lại, sau này khi thực hiện bị quên đi
++ Nội dung họp với khách hàng khác với nội dung đã truyền đạt đến team offshore.
 
-## 3.3. チームワーク
-### 3.3.1. お客さんと
-#### 3.3.1.1. お客さんの開発チームの一員としてチームワーク
-1. お客さんが狙った目的を理解すること
-お客さんが開発したい機能の目的、意図を理解する
-↓
-狙った目的に対して、全体の作業を理解した上で、自分／オフショアチームの役割を理解する
+### 3.4.2. Ghi log cuộc họp với team offshore
+Đây là kỹ năng ghi lại nội dung đã nêu trong cuộc họp với team offshore.
+Nội dung sau đó gửi lại đến team offshore.
 
-■よくある問題
+Tuỳ trường hợp mà cũng gửi đến cho khách hàng.
 
-オフショアや自分のタスクだけ気にして、お客さんのタスクに気にしない
+**Vấn đề hay gặp**
++ Nội dung cuộc họp không được ghi log lại, sau này khi thực hiện bị quên đi
++ Nội dung đã nói trong cuộc họp không được ghi log lại, sau này khi thực hiện thì nhận thức khác với khi đã họp
 
-2. 一員として、行動すること
-狙った目的に対して、今の機能は充実しているのか、大丈夫なのかを考慮し、意見を出す。
+## 3.5. Kỹ năng SE
+Nói đến kỹ năng SE thì phạm vi rất rộng, nhưng ở đây mình chỉ liệt kê ra những kỹ năng mình có để ý đến khi làm BrSE
 
-できるかぎりお客さんの他のメンバーのタスクにお手伝い
+### 3.5.1. Hiểu về quy trình phát triển phần mềm
+BrSE cần hiểu về quy trình phát triển một phần mềm, để từ đó biết được hiện tại dự án đang ở giai đoạn nào, giai đoạn hiện tại cần output nào của giai đoạn trước, cũng như output gì đến giai đoạn sau.
 
-■よくある問題
+Khi dự án mới khởi động, nếu BrSE không biết nhiều về quy trình phần mềm thì sẽ khá lúng túng. Việc hiểu quy trình phần mềm sẽ giúp BrSE có tự tin xuyên suốt dự án.
 
-オフショアの事情がわからず、オフショアが受け取れないタスクを受けてしまう
+**Vấn đề hay gặp**
++ Giai đoạn hiện tại cần làm gì BrSE cũng không rõ
 
-#### 3.3.1.2.パートーナーの観点としてチームワーク
-オフショア開発ができること、できないことをお客さんに説明、タスクが適切に調整されるようにする
+### 3.5.2. Nắm được framework, ngôn ngữ phát triển
+BrSE cần nắm được đặc trưng kỹ thuật dùng để phát triển, từ đó truyền đạt đến offshore member được chính xác.
 
-オフショアの状況を常に更新、お客さんに共有すること
+Tuỳ trường hợp mà BrSE cũng cần tham gia vào phát triển, sửa, khi đó những kiến thức này là không thể thiếu.
 
-■よくある問題
+**Vấn đề hay gặp**
++ Vấn đề kỹ thuật khách hàng đề cập tới BrSE không hiểu, cũng như không truyền đạt đến member offshore được.
 
-SEのタスクに気にしすぎ、全体のタスクや進捗が遅くて、止まる
+# Kết
+Cảm ơn các bạn đã đọc đến đây.
 
-### 3.3.2. オフショアメンバーと
-#### 3.3.2.1. オフショア作業の全体の作業を理解した上で、行動する
-自分のタスクに夢中になるではなく、全体のタスク、他のタスクを理解した上で自分のタスクを対応する
+Trong giới offshore hiện tại mình thấy cũng không nhiều tài liệu mô tả về công việc BrSE, nên hi vọng được đóng góp vào sự phát triển của giới offshore.
 
-※ SE出身のBrSEは開発タスクに夢中になる傾向がある。全体のタスク、また優先度に応じて対応するのは注意すべきことです
+Mình chỉ chia sẻ được những gì mà mình biết, nhưng hi vọng và có ích cho công việc của các bạn. Đặc biệt là các bạn kỹ sư người Việt có dự định sắp sang Nhật làm BrSE.
 
-■よくある問題
+Ngoài ra thì mình đã có xem lại nội dung và chỉnh sửa vài lần, tuy nhiên cách viết cũng như nội dung có lẽ vẫn còn rất nhiều thiếu sót, hi vọng các bạn thông cảm.
 
-SEのタスクに気にしすぎ、全体のタスクや進捗が遅くて、止まる
+Mình rất hoan nghênh các đóng góp, comment, góp ý để tài liệu được hoàn thiện cũng như có ích hơn đến mọi người, mọi người xin cứ thoải mái góp ý ạ ^^
 
-#### 3.3.2.2. 理解したお客さんの観点で、オフショアの作業について意見を共有、相談
-タスク単体の内容だけではなく、全体的にお客さんが求める成果に向けて、現在オフショアの作業が大丈夫か、お客さんの作業とくっつけることができるかに気にして、チームと相談すること
-
-※ 普段オフショアチームはタスク単体に専念し、全体の成果につながらないおとがあるので、BrSEが先に発見し、指摘できたら作業が効率
-
-※ オフショア作業が全体の成果に合わせるようにするのはPMの役割ですが、普段BrSEはお客さんのことをより理解するので、意見が役に立つことが多い
-
-■よくある問題
-
-オフショアがやったことがお客さんの無駄になる		
-
-単体の成果だけできたが、お客さんが求める全体の成果と遠く離れる、		
-
-## 3.4. 議事録
-### 3.4.1. お客さんと会議の議事録		
-会議で決められることを記載						
-
-後でお客さんに通知すること						
-
-場合によってオフショアチームにも共有						
-
-■よくある問題
-
-+ 会議で口頭で決めたことが忘れられる		
-
-+ 会議で決めたことがメンバーごとに認識が違う		
-
-### 3.4.2. オフショアと会議の議事録		
-会議で決められることを記載						
-
-後でオフショアチームに共有すること						
-
-場合によってお客さんにも共有						
-
-■よくある問題
-
-+ 会議で口頭で決めたことが忘れられる		
-
-+ 会議で決めたことがメンバーごとに認識が違う		
-
-## 3.5. SEスキル
-### 3.5.1. 開発工程について知識		
-各工程（要件定義→受け入れ）のソフトウェア開発工程の知識						
-
-今の工程は何をする、前の工程に何を求める、後の工程に何を提出すべきを把握すること						
-
-■よくある問題
-
-今の工程に何をするか曖昧
-
-### 3.5.2. 開発言語／フレームワーク		
-現在開発される技術のことを理解した上で、オフショアメンバーが開発できるように伝えられること						
-
-場合によって、自分でも開発できるように得るべきこと						
-
-■よくある問題
-
-お客さんが言った技術のことがわからない
-
-# おしまい
-これまで読んでいただきありがとうございました。
-
-オフショア業界にはBrSEについてはドキュメントみたいな資料がまだ少ないと思いますので、少々貢献させていただきたいと思、書くことにしました。
-
-知った限りの情報を共有したことで、この知識を皆の作業にお役に立てば幸いです。特に今後来日するベトナム人の若いBrSEにお役に立てばと思います。
-
-自分なりにある程度数回内容を見直しましたが、まだまだ謝る日本語や表現がいっぱいあると思いますので、申し訳ありませんでした。
-
-最後に、ちょうど今日も2020/2021の年末年始ということで、良いお年を迎えてください！
-
-以上。
+Hết
