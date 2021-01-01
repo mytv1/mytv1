@@ -570,3 +570,7 @@ SEのスキルと言えば、幅広く多いと思いますが、以下はその
 最後に、ちょうど今日も2020/2021の年末年始ということで、良いお年を迎えてください！
 
 以上。
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=686440048712187&autoLogAppEvents=1" nonce="nCQ7ohIk"></script>
+<div class="fb-comments" data-href="https://www.facebook.com/tran.my.77/posts/3923899980967557" data-width="500" data-numposts="10"></div>

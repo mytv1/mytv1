@@ -4,3 +4,4 @@ _site
 node_modules/
 refresh.sh
 *.DS_Store
+memo.md

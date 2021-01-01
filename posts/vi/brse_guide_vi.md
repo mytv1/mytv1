@@ -549,3 +549,7 @@ Ngoài ra thì mình đã có xem lại nội dung và chỉnh sửa vài lần,
 Mình rất hoan nghênh các đóng góp, comment, góp ý để tài liệu được hoàn thiện cũng như có ích hơn đến mọi người, mọi người xin cứ thoải mái góp ý ạ ^^
 
 Hết
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=686440048712187&autoLogAppEvents=1" nonce="nCQ7ohIk"></script>
+<div class="fb-comments" data-href="https://www.facebook.com/tran.my.77/posts/3923899980967557" data-width="500" data-numposts="10"></div>
