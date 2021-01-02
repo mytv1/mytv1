@@ -56,7 +56,7 @@ Tất nhiên là tương tự như mình đã nói ở trên, hoàn cảnh mỗi
 
 Nhưng nếu bạn không nằm trong hoàn cảnh như vậy, đơn thuần bạn giống hoàn cảnh của mình, sang Nhật với hoàn cảnh tiếng Nhật cũng làng nhàng lõm bõm có bằng N3 nhưng nghe nói vẫn kém, kỹ thuật thì hỏi đến đâu google đến đấy, nói chung là cũng thường thường thì mình có đề xuất là nên ôn tiếng Nhật trước trong 2 năm đầu tiên như sau:
 
-#### Năm 1-2 : tập trung có N1 và có **khả năng giao tiếp nghe nói tốt**
+#### 1.1.2.1. Năm 1-2 : tập trung có N1 và có **khả năng giao tiếp nghe nói tốt**
 + N1 có được cũng rất khó, nhưng có được N1 cũng chưa chắc đã làm việc tốt được, nên hãy xác định là N1 chỉ là một phần, phần còn lại là sự tự rèn luyện tiếng Nhật của bạn trong cuộc sống.
 
 + Thứ hai ngoài N1 đó là khả năng giao tiếp nghe nói tốt, đây là kỹ năng mà theo mình rèn luyện được cực kỳ khó. Nghe nói tốt tức là bạn đứng nói chuyện với một người Nhật, nói chuyện 50 câu thì trả lời đối đáp đúng cũng phải trên 45 câu. Hay là bạn làm project họp nhóm với 4 người khác trong team, mỗi người khi kết thúc buổi họp nói được khoảng 10 câu thì bạn cũng phải nói được 7-8 câu một cách hợp lý. Khi mới sang Nhật thì mình đã không làm được như vậy, 50 câu thì mình chỉ đối đáp đúng 2-5 câu, buổi họp thì mình nói được từ 0-1 câu, thực sự là rất tệ.
@@ -129,7 +129,7 @@ Mình đề cập đến vấn đề này bởi vì với người Việt mới 
 
 Những vấn đề kiểu như trên, mình nghĩ cơ bản là sự mâu thuẫn giữa lợi ích riêng và lợi ích chung, nếu  ta không có sự nhận thức này thì mình e là ta sẽ sống ở Nhật với một sự bất mãn xã hội (với lợi ích chung), cảm thấy bất công ngày càng gia tăng.
 
-#### 1.2.5. Tôn trọng văn hoá Nhật Bản, cân nhắc khi phán xét
+### 1.2.4. Tôn trọng văn hoá Nhật Bản, cân nhắc khi phán xét
 Khi bạn mới đến làm việc tại Nhật, nhận thấy sự khác biệt giữa văn hoá Nhật Bản và Việt Nam, có lẽ bạn sẽ muốn viết vài status là Nhật Bản thế này Nhật Bản thế kia.
 
 Vậy hãy cân nhắc khi phán xét một vấn đề tại Nhật Bản, và khi phán xét, hãy tôn trọng văn hoá Nhật Bản. Theo mình thì tôn trọng văn hoá Nhật cũng chính là tôn trọng văn hoá Việt, bởi nếu ta không tôn trọng văn hoá Nhật - thì một cách công bằng - người Nhật cũng không nhất thiết phải tôn trọng văn hoá Việt.
@@ -200,7 +200,7 @@ Câu hỏi ở đây là, mình 23 tuổi và bạn người Nhật 23 tuổi c�
 
 Với mình thì câu trả lời là không, nếu có người hơn thì có lẽ là người Nhật.
 
-#### Về học lực
+#### 1.4.1.1. Về học lực
 
 https://www.timeshighereducation.com/world-university-rankings/2020/world-ranking#
 
@@ -210,7 +210,7 @@ Bảng trên là xếp hạng các trường đại học trên toàn thế gi�
 
 Tất nhiên năng lực từng người là khác, nhưng nếu lấy số lớn 10000 người Nhật và 10000 người Việt tốt nghiệp đại học, thì có lẽ ta cũng đánh giá rõ ràng được là bên nào năng lực tốt hơn.
 
-#### Về các kỹ năng khác
+#### 1.4.1.2. Về các kỹ năng khác
 
 Nhưng nói về năng lực làm việc của một người thì học lực chỉ là một phần, phần còn lại là kỹ năng mềm, là năng lực thể chất, ý chí làm việc, nhẫn nại chịu khó, kiến thức xã hội v.v... 
 
@@ -224,7 +224,7 @@ Các em người Nhật hồi tiểu học biết tự phục vụ đồ ăn đ�
 
 Ở trên chỉ là vài điều nhỏ nhặt, nhưng góp lại trong 23 năm thì biết bao nhiêu những điều như vậy đã xảy ra, người Nhật 23 tuổi và người Việt 23 tuổi bỏ qua vấn đề ngôn ngữ và văn hoá, thì về các năng lực khác rõ ràng là rất khác nhau. "Khác" ở đây còn là cách nói lịch sự, bởi nếu xét trên các tiêu chí, các thang đo năng lực thì ta đã biết bên nào hơn rồi. Mình thấy thực tế rất nhiều người lấy người giỏi nhất của Việt Nam để so sánh với ngươi giỏi nhất của Nhật Bản để so sánh năng lực người Việt và người Nhật để cho la 2 bên ngang hàng. Cá nhân thì có thể khác, về tiềm năng thì có thể đúng, nhưng không phải là ta phải xét đại trà, 10000 người, 1 triệu người thế nào thì mới khách quan hay sao.
 
-#### Nhận thức để cố gắng
+#### 1.4.1.3. Nhận thức để cố gắng
 Mình đề cập đến vấn đề này với các bạn sắp sang Nhật làm việc không phải là để các bạn tự thấy xấu hổ, đổ tại cho chính quyền, cho xã hội v.v..., mà là để các bạn thấy thực tế hiển nhiên là như vậy, và ta cần phải biết được sự chênh lệch đó để mà học hỏi cầu tiến, từ người Nhật, từ xã hội Nhật Bản.
 
 Ngược lại nếu ta cho rằng 2 bên là giống nhau, ta không có gì phải kém cạnh hơn cả, thì mình nghĩ là điều đó cũng giống như ta đã tự khoá mức thang đo trưởng thành của mình lại.
@@ -378,65 +378,5 @@ Hết
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=686440048712187&autoLogAppEvents=1" nonce="nCQ7ohIk"></script>
 <div class="fb-comments" data-href="https://www.facebook.com/tran.my.77/posts/3931430180214537" data-width="500" data-numposts="10"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
