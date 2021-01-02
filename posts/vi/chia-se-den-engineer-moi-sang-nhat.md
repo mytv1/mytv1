@@ -1,9 +1,9 @@
 ---
 layout: markdown
-title: Chia sẻ đến kỹ sư người Việt sắp sang Nhật
+title: Chia sẻ kinh nghiệm đến kỹ sư người Việt sắp sang Nhật
 ---
 
-<h1>Chia sẻ đến kỹ sư người Việt sắp sang Nhật </h1>
+<h1>Chia sẻ kinh nghiệm đến kỹ sư người Việt sắp sang Nhật </h1>
 
 * Do not remove this line (it will not be displayed)
 {:toc}
