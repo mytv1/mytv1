@@ -375,6 +375,9 @@ Xin chúc các bạn sinh sống và làm việc tốt tại Nhật Bản.
 
 Hết
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=686440048712187&autoLogAppEvents=1" nonce="nCQ7ohIk"></script>
+<div class="fb-comments" data-href="https://www.facebook.com/tran.my.77/posts/3931430180214537" data-width="500" data-numposts="10"></div>
 
 
 
