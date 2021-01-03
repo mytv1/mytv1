@@ -366,10 +366,14 @@ Tất nhiên là tuỳ mỗi người sẽ có một cách rèn luyện phù h�
 # 3. Kết
 Cảm ơn các bạn đã đọc đến đây, mình hi vọng đã cung cấp được cho các bạn các thông tin hữu ích trước khi đến Nhật.
 
-Ở bài viết này mình chỉ tập trung vào các vấn đề thuộc kinh nghiệm cá nhân, những vấn đề khác thiết thân hơn liên quan đến cách sống ở Nhật thì các bạn có thể tham khảo các nguồn trên mạng. Ví dụ 
+Ở bài viết này mình chỉ tập trung vào các vấn đề thuộc kinh nghiệm cá nhân, những vấn đề khác thiết thân hơn liên quan đến cách sống ở Nhật thì các bạn có thể tham khảo các nguồn trên mạng. Ví dụ :
 
 + https://isenpai.jp/
 + https://www.kokoro-vj.org/vi
+
+Mình xin gửi đến các bạn 2 lời khuyên mà mình đã nhận được trước và sau khi sang Nhật :
++ Hãy cố gắng gấp 2 lần người bình thường. Bởi vì người Nhật không cần học tiếng, chỉ cần học kỹ thuật, còn mình thì cần học cả kỹ thuật lẫn tiếng Nhật.
++ Câu nói của bác Fukuzawa Yukichi 福沢諭吉さん dành đến những người đi làm:「思想の深遠なるは哲学者のごとく、心術の高尚正直なるは元禄武士のごとくにして、これに加うるに小俗吏の才をもってし、さらにこれに加うるに土百姓の身体をもってして、初めて実業社会の大人たるべし。」. Câu này nghĩa là hãy tu dưỡng bản thân, để suy nghĩ giống như một nhà triết học, trái tim trung thực như một võ sĩ đạo, có năng lực như những cán bộ công chức, thân thể khoẻ mạnh như những người nông dân, khi đó ta mới bắt đầu là một người lớn đứng trong xã hội.
 
 Xin chúc các bạn sinh sống và làm việc tốt tại Nhật Bản.
 
