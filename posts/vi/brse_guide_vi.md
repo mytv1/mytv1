@@ -262,7 +262,7 @@ Với những yêu cầu có liên quan đến văn hoá, tập quán, thường
 + Trường hợp cần xác nhận từ khách hàng thì thực hiện xác nhận trước
 + Cần xem xét độ cần thiết các mục cần truyền đạt trên chính sách bảo mật thông tin của khách hàng
 
-#### 2.2.1.5.　Giải thích cho khách hàng flow làm việc của công ty mình
+#### 2.2.1.5. Giải thích cho khách hàng flow làm việc của công ty mình
 Phía khách hàng quan tâm không chỉ là về input, output mà bao gồm cả trình tự làm việc, nội dung chi tiết các công đoạn nhỏ.
 
 **Ví dụ：**
@@ -287,7 +287,36 @@ Thông thường BrSE chính là người xuất thân từ hoặc là PE hoặc
 
 Trên đây mình đã trình bày vai trò của BrSE chung cho tất cả công đoạn của dự án, tiếp theo mình sẽ trình bày vai trò riêng theo từng công đoạn.
 
-### 2.2.2.Định nghĩa yêu cầu（Khách hàng）
+#### 2.2.1.8. Nắm được thể chế và vai trò từng thành viên trong thể chế
+Trong thể chế ở phần 1.4, ta đã nói đến một ví dụ đơn giản là BrSE chỉ giao tiếp với 1 bên khách hàng :
++ a. Công ty Outsource (BrSE) <---> Khách hàng A
+
+Trong thực tế thể chế có thể phức tạp hơn nhiều ví dụ như :
+
++ b. Công ty Outsource (BrSE) <---> Đối tác B (của A)  <--->  Khách hàng A <---> End User
++ c. Công ty Outsource (BrSE) <---> Đối tác B' (của A)  <---> Đối tác B (của A) <--->  Khách hàng A <---> End User
+
+Một dự án trong thực tế nếu ở quy mô lớn thì thường bên trả tiền (Stack Holder - A) họ sẽ thuê 1 hoặc 2 nhà thầu chính (B), các nhà thầu chính sẽ dựa vào kinh phí được trả từ Stack Holder để trả cho các nhà thầu phụ (B'). Các công ty Outsource trong thể chế này tuỳ thuộc vào năng lực mà có thể là B hoặc B' hoặc B'' ... 
+
+Những dự án có thể chế như vậy thì thể chế giao tiếp cũng phức tạp hơn, BrSE thông thường chỉ cần giao tiếp với bên thuê mình là được, nhưng đôi khi cũng có trao đổi với cả bên thuê bên thuê mình, thậm chí cả với End User.
+
+Tuỳ thuộc vào tính chất dự án mà độ khó cho BrSE sẽ thay đổi, tuy nhiên điều quan trọng ở đây là BrSE cần nắm được thể chế để biết được trách nhiệm từng bên cụ thể là gì, cũng như vai trò của mình với bên đó như thế nào.
+
+**Ví dụ**
+
+Giả sử ta đang làm việc với thể chế c (ở trên), BrSE được cho phép trao đổi với cả B', B, A và End User.
+
+Một thời điểm trong dự án, trong giao đổi giữa 5 bên thì End User đưa ra một yêu cầu công việc thuộc phạm vi của công ty Outsource.
+
+Trường hợp đó BrSE có thể mắc sai lầm là nhận luôn yêu cầu đó để bàn giao cho team thực hiện.
+
+Với trường hợp này thì ta cần hiểu rằng tuy End User đóng vai trò rất quan trọng trong dự án, tuy nhiên bên trả tiền cho công ty Outsource - cũng như bên mà công ty Outsource có trách nhiệm duy nhất là B', bất kỳ yêu cầu nào được đưa vào thực hiện đều phải có sự xác nhận của B'.
+
+Nói cách khác, theo mình thì trường hợp này BrSE cần xác nhận với B' là yêu cầu của End User có cần thiết đưa vào thực hiện không, nếu B' đồng ý thì ta sẽ bàn giao tiếp cho team offshore thực hiện.
+
+Tức là BrSE cần nắm rõ thể chế và bên mà mình có trách nhiệm để đưa ra quyết định hợp lý.
+
+### 2.2.2. Định nghĩa yêu cầu（Khách hàng）
 Trong giai đoạn định nghĩa yêu cầu, khách hàng là người thực hiện tạo tài liệu yêu cầu, khi đó phía khách hàng sẽ hỏi BrSE về việc những yêu cầu này phía offshore có thể thực hiện được không
 
 Ví dụ：
@@ -296,7 +325,7 @@ Ví dụ：
 
 Những lúc thế này thì thường BrSE sẽ xác nhận với đội Offshore trước rồi trả lời lại khách hàng.
 
-### 2.2.3.Thiết kế cơ bản/hệ thống（Khách hàng／Công ty offshore）
+### 2.2.3. Thiết kế cơ bản/hệ thống（Khách hàng／Công ty offshore）
 + Tạo tài liệu thiết kế cơ bản
   + Đây là task của PE, trao đổi với PM trước khi thực hiện
 + Review tài liệu thiết kế cơ bản
@@ -308,7 +337,7 @@ Những lúc thế này thì thường BrSE sẽ xác nhận với đội Offsho
 + Dịch kế hoạch test
   + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
 
-### 2.2.4.Thiết kế chi tiết（Công ty offshore）
+### 2.2.4. Thiết kế chi tiết（Công ty offshore）
 + Tạo tài liệu thiết kế chi tiết
   + Đây là task của PE, trao đổi với PM trước khi thực hiện
 + Review tài liệu thiết kế chi tiết
@@ -316,7 +345,7 @@ Những lúc thế này thì thường BrSE sẽ xác nhận với đội Offsho
 + Dịch tài liệu thiết kế chi tiết
   + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
 
-### 2.2.5.Implement（Công ty offshore）
+### 2.2.5. Implement（Công ty offshore）
 + Programing
   + Đây là task của PE, trao đổi với PM trước khi thực hiện
 
@@ -325,7 +354,7 @@ Những lúc thế này thì thường BrSE sẽ xác nhận với đội Offsho
 + Review code
   + Đây là task của PE, trao đổi với PM trước khi thực hiện
 
-### 2.2.6.Test đơn（Công ty offshore）
+### 2.2.6. Test đơn（Công ty offshore）
 + Tạo tài liệu test đơn
   + こちらはTesterのタスク。タスクの担当はPMの作業分担支持に従う。
   + Đây là task của PE, trao đổi với PM trước khi thực hiện
@@ -338,7 +367,7 @@ Những lúc thế này thì thường BrSE sẽ xác nhận với đội Offsho
 + Dịch tài liệu test đơn
   + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
 
-### 2.2.7.Test tích hợp（Khách hàng／Công ty offshore）
+### 2.2.7. Test tích hợp（Khách hàng／Công ty offshore）
 + Tạo tài liệu test tích hợp
   + Đây là task của Tester, trao đổi với PM trước khi thực hiện
 + Review tài liệu test tích hợp
@@ -350,7 +379,7 @@ Những lúc thế này thì thường BrSE sẽ xác nhận với đội Offsho
 + Dịch kết quả test tích hợp
   + Đây là task của Comtor, trao đổi với PM trước khi thực hiện
 
-### 2.2.8.Tiếp nhận sản phẩm（Khách hàng／Công ty offshore）
+### 2.2.8. Tiếp nhận sản phẩm（Khách hàng／Công ty offshore）
 + Tạo tài liệu test tiếp nhận sản phẩm
 + Thực hiện test tiếp nhận
   + Đây là task của PM, trao đổi với PM trước khi thực hiện
