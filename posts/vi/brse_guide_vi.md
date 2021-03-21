@@ -448,6 +448,53 @@ BrSE cần truyền đạt được các vấn đề, giải thích được c�
 **Nhược điểm**
 + Sau này không kiểm chứng lại được nội dung đã trao đổi (Vậy nên cần note lại nội dung họp)
 
+### 3.1.4. Nội dung
+#### 3.1.4.1. Truyền đạt được cả ý nghĩa nội hàm
+BrSE cần chú ý nội dung cần truyền đạt không chỉ là nội dung người muốn truyền đạt nêu, mà còn bao gồm nội dung người nhận truyền đạt cần phải biết.
+
+Nếu truyền đạt về spec về hệ thống thì ta không chỉ cần nêu spec là gì, mà còn cần giải thích cho developer hiểu vì sao spec như vậy, có mục đích gì.
+
+Ví dụ, giả sử ta cần truyền đạt thiết kế bảng như sau đến developer:
+
+Table 1 : company
+
+```
+CREATE TABLE company {
+  id int primary key auto increment
+}
+```
+
+Table 2 : employee
+
+```
+CREATE TABLE employee {
+  id int primary key auto increment
+  company_id int
+}
+```
+
+Đây là một ví dụ đơn giản, 2 bảng thể hiện cho 2 model công ty và nhân viên, mỗi nhân viên đều thuộc một công ty.
+
+Nhìn vào thiết kế này ta thấy có một điểm đó là hiện tại `employee`.`company_id` không có ràng buộc khoá ngoài đến `company.id`.
+
+Nếu ta chỉ truyền đạt đơn thuần ý nghĩa 2 bảng này đến developer, developer sẽ thắc mắc vì sao không có khoá ngoài, nguyên nhân có thể như sau :
+
++ khách hàng quên đặt khoá ngoài
++ thiết kế không đặt khoá ngoài là có mục đích riêng
+
+Ví dụ trong trường hợp này, trước khi developer đặt câu hỏi, BrSE cần phải truyền đạt rằng bảng `employee` được batch import từ hệ thống khác, có trường hợp tồn tại `company_id` không có sẵn trong `company` nếu đặt khoá khoá chính thì sẽ không import được chẳng hạn.
+
+Tức là BrSE nên hiểu được không chỉ là nội dung spec, mà còn cả ý nghĩa của spec, và truyền đạt được cả hai đến developer.
+
+#### 3.1.4.2. Truyền đạt cần rõ ràng, tránh gây nhầm lẫn
+Trong IT có rất nhiều thuật ngữ hay cách nói dễ gây nhầm lẫn, chưa kể dự án càng phức tạp thì khả năng nhầm này càng tăng lên. Để developer hiểu được chính xác vấn đề thì BrSE cần truyền đạt cũng phải chính xác.
+
+Giả sử khách hàng nói "Trang quản lý đang có bug ấn nút gửi bị lỗi".
+
+Trong bối cảnh trang web có 2 trang là `/admin` - trang quản trị hệ thống và `/manage` - trang quản lý cho hội viên thì khái niệm "quản lý" này rất dễ gây nhầm.
+
+Trong trường hợp trên BrSE cần truyền đạt đến developer là "Trang quản trị hệ thống `/admin` đang có bug ấn nút gửi ở vị trí XYZ bị lỗi. Nội dung lỗi là ABC" mới đầy đủ.
+
 ## 3.2. Tiếng Nhật
 ### 3.2.1. Tiếng nhật giao tiếp thường ngày
 Khi giao tiếp với khách hàng thì tiếng nhật thông dụng thường ngày là kỹ năng không thể thiếu.
@@ -476,10 +523,108 @@ Theo mình thấy thì nếu khách hàng là người dễ tính, đối với 
 **Vấn đề hay gặp**
 + Khi truyền đạt vấn đề, vốn dĩ ta không có ý định khiếm nhã nhưng bởi cách biểu đạt của từ ngữ đã dùng mà khách hàng có cảm giác mất thiện cảm.
 
+### 3.2.4. Dịch tài liệu
+#### 3.2.4.1. Quản lý tài liệu dịch
+Dịch tài liệu là một công việc thiết yếu của BrSE. Với project nhỏ, tài liệu ít, không đáng kể thì công việc dịch và quản lý đơn giản hơn, nhưng với project trung vài đại thì việc quản lý thế nào nếu ta cân nhắc thì hiệu suất công việc sẽ tốt hơn.
+
+Theo mình thì quản lý tài liệu vốn dĩ là công việc của PM, nên ta cần ưu tiên ý kiến của PM trước, hoặc nên bàn bạc với PM và các developer để đưa ra phương án tối ưu nhất. Nếu trong project có comtor thì có thể comtor sẽ giúp BrSE dịch tài liệu.
+
+Dưới đây mình xin nêu 2 cách quản lý mà mình đã kinh nghiệm trải qua.
+
+Giả sử ta có một bộ tài liệu như sau:
+
+
+```
+(要件定義書)
+機能1
+機能2
+
+(設計書)
+機能1の設計書
+機能2の設計書
+```
+
+<div>
+  <table class="table">
+    <tr>
+      <th scope="col">Cách dịch</th>
+      <th scope="col">Dịch thuần</th>
+      <th scope="col">Dịch tài liệu song ngữ</th>
+    </tr>
+    <tr>
+      <td>Phương hướng</td>
+      <td>Dịch thành tài liệu riêng bằng tiếng Việt</td>
+      <td>Dịch thành tài liệu nội dung vừa tiếng việt, vừa tiếng nhật</td>
+    </tr>
+    <tr>
+      <td>Ví dụ kết quả sau khi dịch</td>
+      <td>
+        Định nghĩa yêu cầu (Thư mục)<br>
+        Tính năng 1 (Tài liệu)<br>
+        Tính năng 2 (Tài liệu)<br>
+        Thiết kế (Thư mục)<br>
+        Tính năng 1 (Tài liệu)<br>
+        Tính năng 2 (Tài liệu)<br>
+      </td>
+      <td>
+        要件定義書_Định nghĩa yêu cầu(Thư mục)<br>
+        機能1_Tính năng 1 (Tài liệu)<br>
+        機能2_Tính năng 2 (Tài liệu)<br>
+        設計書_Thiết kế (Thư mục)<br>
+        機能1_Tính năng 1 (Tài liệu)<br>
+        機能2_Tính năng 2 (Tài liệu)<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Ưu điểm</td>
+      <td>+ Developer dễ nhìn, dễ đọc</td>
+      <td>+ Dễ đối chiếu tài liệu<br> + Không cần quản lý version</td>
+    </tr>
+    <tr>
+      <td>Khuyết điểm</td>
+      <td>+ Khó đối chiếu với tài liệu gốc<br>+ Cần quản lý version</td>
+      <td>+ Developer khó đọc</td>
+    </tr>
+  </table>
+</div>
+
+#### 3.2.4.2.Đánh dấu mã tài liệu bằng tiếng Anh
+Thứ nhất là BrSE thì ta cần nhận thức cơ bản là developer không biết tiếng Nhật, cũng như không phân biệt được các tài liệu với nhau.
+
+Thứ hai là nếu chỉ dịch đơn thuần Nhật - Việt, thì khi tham chiếu cùng 1 tài liệu ở 2 phiên bản ngôi ngữ thì ta sẽ phải dựa vào ngữ nghĩa của chúng để phân biệt.
+
+Thứ ba là tuỳ ngữ cảnh và kiến thức của người dịch mà kết quả cũng có thể khác nhau, ví dụ cùng là từ 背景 nhưng có người dịch là "bối cảnh", người dịch là "hoàn cảnh". Nếu cùng tồn tại cả 2 tài liệu "bối cảnh" và "hoàn cảnh" thì sẽ khó phân biệt đâu là tài liệu dịch của "背景".
+
+Ta có thể giải quyết ba vấn đề trên bằng việc đánh dấu tài liệu bằng mã tiếng anh, ví dụ :
+
+Tài liệu gốc :
+
+```
+RE_要件定義書 (RE = requirement)
+RE001_機能1
+RE002_機能2
+DE_設計書 (DE = design)
+DE001_機能1の設計書
+DE002_機能2の設計書
+```
+
+Tài liệu dịch :
+
+```
+RE_Định nghĩa yêu cầu
+RE001_Tính năng 1
+RE001_Tính năng 2
+DE_Tài liệu thiết kế
+DE001_Tính năng 1
+DE002_Tính năng 2
+```
+
+Như ví dụ trên, ta có thể phân biệt các tài liệu bản gốc - bản dịch bằng RE001 hoặc DE002, dù là phiên bản nhật hay việt thì đều chung mã nên rất dễ nhìn.
+
 ## 3.3. Teamwork
 ### 3.3.1. Với khách hàng
 #### 3.3.1.1. Làm việc với vai trò là một thành viên trong team phát triển của khách hàng
-1. Không chỉ task của bản thân mình, mà task của khách hàng cũng nắm được.
+##### 3.3.1.1.1.1. Không chỉ task của bản thân mình, mà task của khách hàng cũng nắm được.
 
 Trong công việc thì không phải ta hoàn thành phần việc của mình là xong, mà kể cả phần mình xong rồi, phần người khác xong rồi, cả 2 phần có gắn kết được với nhau không cũng là vấn đề quan trọng.
 
@@ -490,7 +635,7 @@ Trong phạm vi có thể, BrSE nên hỗ trợ khách hàng cũng như đội p
 **Vấn đề hay gặp**
 + BrSE chỉ chú đến task của bản thân và đội offshore, không quan tâm đến task của khách hàng
 
-2. Làm việc với vai trò không chỉ là nhân viên công ty Offshore, mà cả với vai trò là một thành viên phát triển của khách hàng
+##### 3.3.1.1.1.2. Làm việc với vai trò không chỉ là nhân viên công ty Offshore, mà cả với vai trò là một thành viên phát triển của khách hàng
 
 Vốn dĩ BrSE là nhân viên của công ty Offshore, nên chỉ hiểu vấn đề trên quan điểm của công ty Offshore thì cũng không sai. Tuy nhiên để hiểu thấu được công việc thì mình nghĩ cần hiểu được quan điểm của khách hàng.
 
