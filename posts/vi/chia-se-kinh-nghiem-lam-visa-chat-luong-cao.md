@@ -261,9 +261,9 @@ Chia sẻ của mình đến đây là hết. Ngoài ra thì mình cảm nhận 
 Hi vọng chia sẻ của mình sẽ có ích với các bạn
 
 
-  <img style="width: 250px;" src="/mytv1/assets/images/visa-nlclc/資料補足.JPG" />
-  <img style="width: 250px;" src="/mytv1/assets/images/visa-nlclc/お知らせ.JPG" />
-  <img style="width: 250px;" src="/mytv1/assets/images/visa-nlclc/後の在留カード.JPG" />
-  <img style="width: 250px;" src="/mytv1/assets/images/visa-nlclc/計算結果.JPG" />
+<img style="width: 250px;" src="/mytv1/assets/images/visa-nlclc/資料補足.JPG" />
+<img style="width: 250px;" src="/mytv1/assets/images/visa-nlclc/お知らせ.JPG" />
+<img style="width: 250px;" src="/mytv1/assets/images/visa-nlclc/後の在留カード.JPG" />
+<img style="width: 250px;" src="/mytv1/assets/images/visa-nlclc/計算結果.JPG" />
 
 
