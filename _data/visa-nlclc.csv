@@ -1,0 +1,28 @@
+Mục lớn,Mục con,Loại tài liệu (Nhật),Loại tài liệu (Việt),Các bước,Chú thích
+1,,在留資格変更許可申請書,Đơn đăng ký chuyển đổi visa,"1.Điền thông tin phần bản thân.<br>2.Nhờ công ty điền phần thông tin công ty (có đóng dấu).<br>3.Gắn 2 phần lại với nhau","Link download : http://www.moj.go.jp/isa/applications/procedures/16-1-1.html<br>Chú ý phần cho dân IT là phần （２） 【高度専門職１号ロ】 ....専門的技術又は知識を...."
+2,,写真（縦４cm×横３cm） ,Ảnh cá nhân,"1.Chụp ảnh mới.<br>2.Ghi tên cá nhân<br>3.Dán vào tài liệu","Ảnh mới chụp trong 3 tháng gần nhất, phía sau có ghi tên cá nhân, và dán vào trong tài liệu 1 phần ảnh cá nhân"
+3,,"申請人のパスポート及び在留カード","Thẻ lưu trú hoặc passport của bản thân",,"Chỉ cần đưa ra khi nộp là được, không cần tạo bản copy"
+4,," 本邦において行おうとする活動に応じて，入管法施行規則別表第３の「教授」から「報道」まで又は「経営・管理」から「技能」までのいずれかの在留資格の項の下欄に掲げる資料※ ",Các tài liệu chứng minh loại công việc của bản thân,,Phần này mình thấy đã trùng với các tài liệu ở mục 6 nên không cần chuẩn bị thêm.
+5,,ポイント計算表（参考書式）,Bảng tính điểm,"1.Download bảng tính điểm<br>2.Điền bảng tính điểm<br>3.Ký tên, đóng dấu",
+6,,ポイント計算表の各項目に関する疎明資料（基本例）,Các tài liệu chứng minh điểm số cho mục 5,,
+6,1,"該当する学歴の卒業証明書及び学位取得の証明書（ただし，⑱を提出する場合は提出不要）","Tài liệu chứng minh học vị và lịch sử học vấn","1.Photo bằng tốt nghiệp<br>2.Photo bảng điểm khi tốt nghiệp"
+6,2,"入管法別表第１の２の表の高度専門職の在留資格をもって在留する外国人（以下「高度専門職外国人」といいます。）として従事しようとする業務に従事した期間及び業務の内容を明らかにする資料（所属していた機関作成のもの）","Tài liệu chứng minh ta đang làm việc đúng ngành nghề","1.Nhờ công ty cấp 在職証明書 có ghi rõ nội dung công việc đang làm（業務内容）.<br> 2.Nếu đã từng chuyển việc thì cần nộp cả 退職証明書 ghi rõ nội dung công việc đã làm （業務内容）","Trường hợp của mình thì nội dung công việc ghi đơn giản là ソフトウェアエンジニアリング với 在職証明書 và nội dung chi tiết hơn, làm về offshore, tool công ty v.v... ở 退職証明書, theo mình thì nếu được thì nên ghi càng đầy đủ càng tốt"
+6,3,"年収（契約機関及び外国所属機関から受ける報酬の年額）を証する文書","Chứng minh thu nhập theo năm","1.Nhờ công ty cung cấp 給与支払見込証明書 Giấy xác nhận thu nhập dự kiến có đóng dấu","Chú ý là không phải thu nhập đã được nhận của các năm trước mà là thu nhập dự kiến trong năm nay"
+6,4,"発明者として特許を受けた発明が 1 件以上","Bằng sáng chế",,Mình không có cái này nên bỏ
+6,5,"入国前に外国政府から補助金競争的資金その他の金銭の給付を受けた研究に３回以上従事","Chứng minh trước khi nhập cảnh thì có nhận được tiền hỗ trợ từ chính phủ 3 lần trở lên",,Mình không có cái này nên bỏ
+6,6,"学術論文データベースに登載 されている学術雑誌に掲載された論文が３本以上","Có 3 bài nghiên cứu được đăng trên các tạp chí khoa học trở lên",,Mình không có cái này nên bỏ
+6,7,"その他法務大臣が認める研究実績","Có thành tích được bộ trưởng về pháp luật công nhận",,Mình không có cái này nên bỏ
+6,8,"従事しようとする業務に関連する日本の国家資格（業務独占資格又は名称独占資格）を保有，又はIT告示に定める試験に合格し若しくは資格を保有","Bằng cấp có về chuyên môn được Nhật Bản công nhận, hoặc là có các công bố trong giới IT thừa nhận việc đỗ đạt bằng cấp hoặc có sở hữu bằng cấp",,"Mình nộp bằng FE và cũng đã được công nhận"
+6,9,"活動機関が入管法別表第１の２の表の高度専門職の項の下欄の基準を定める省令第１条第１項各号の表の特別加算の項の規定に基づき法務大臣が定める法律の規定等を定める件別表第１又は別表第２に掲げるイノベーションを促進するための支援措置を受けている","Chứng nhận được hỗ trợ bởi bộ trưởng pháp luật liên quan đến các hoạt động thúc đẩy",,Mình không có cái này nên bỏ
+6,10,"活動機関が中小企業基本法に規定する中小企業者","Công ty thoả mãn điều kiện công ty vừa và nhỏ",,Mình cũng không hiểu lắm nhưng cũng không làm cái này
+6,11,"活動機関が国家戦略特別区域高度人材外国人受入促進事業の対象として支援を受けている企業",Công ty nằm trong phạm vi được hỗ trợ tuyển dụng nhân lực chất lượng cao nước ngoài,,Công ty mình chắc cũng không thuộc loại này nên bỏ
+6,12,"活動機関が中小企業基本法に規定する中小企業者で，在留資格認定証明書交付申請等の申請日の属する年の前年１年間（申請日が１月から３月の場合は前々年）における試験研究費及び開発費の合計金額が，事業所得にかかる総収入金額の３％を超える","Công ty có 3% số vốn sử dụng cho hoạt động nghiên cứu",,Công ty mình chắc cũng không thuộc loại này nên bỏ
+6,13,"従事しようとする業務に関連する外国の資格，表彰等で法務大臣が認めるものを保有","Sở hữu các bằng cấp liên quan đến nghiệp vụ ở nước ngoài được bộ trưởng công nhận",,Mình không có cái này nên bỏ
+6,14,"日本の大学を卒業又は大学院の課程を修了","Tốt nghiệp đại học ở Nhật hoặc thạc sỹ",,Mình không có cái này nên bỏ
+6,15.1,"日本語専攻で外国の大学を卒業又は日本語能力試験Ｎ１合格相当","Tốt nghiệp đại học chuyên ngành ngoại ngữ ở nước ngoài, hoặc là có chứng chỉ tương đương JLPT N1",,Mình đã nộp bằng N1
+6,15.2,"日本語能力試験Ｎ２合格相当",Năng lực tiếng nhật tương đương N2,,Mình nộp N1 nên cái này thôi
+6,16,"各省が関与する成長分野の先端プロジェクトに従事","Tham gia vào các dự án phát triển tiên tiến của các bộ",,Mình không có cái này nên bỏ
+6,17,"以下のいずれかの大学を卒業<br>１大学格付３機関（クアクアレリ・シモンズ社（英国），タイムズ社（英国），上海交通大学（中国））の大学ランキングのうち２つ以上において３００位以内の外国の大学又はいずれかにランクづけされている本邦の大学<br>２文部科学省が実施するスーパーグローバル大学創成支援事業（トップ型及びグローバル化牽引型）において，補助金の交付を受けている大学<br>３外務省が実施するイノベーティブ・アジア事業において，「パートナー校」として指定を受けている大学","Tốt nghiệp các trường đại học thuộc 1 trong 3 nhóm sau: <br>1.Tốt nghiệp các trường đại học nằm trong top 300 trong bảng 2 trong 3 bảng rank của Quacquarelli Symonds, Times, Thượng hải.<br>2.Các trường đại học theo chương trình super global được hỗ trợ bởi bộ văn hoá Nhật bản<br>3.Các trường đại học nằm trong chương trình thúc đẩy hợp tác với châu Á, trong diện các trường đối tác",,"Mình tốt nghiệp BKHN ở VN nằm trong phần 3 nên nộp chung bằng tốt nghiệp ở 6.1. luôn. Ngoài ra mình có copy bản giấy về chứng minh trường BKHN mình có nằm trong diện này để cục dễ đối chiếu"
+6,18,"外務省が実施するイノベーティブ・アジア事業の一環としてＪＩＣＡが実施する研修を修了","Kết thúc nghiên cứu theo chương trình thúc đẩy hợp tác với châu Á của JICA",,Mình không có cái này nên bỏ
+6,19,"本邦において貿易その他の事業の経営を行う場合であって，当該事業に自ら一億円以上を投資","Bản thân có đầu tư hơn 100 triệu yên vào các hoạt động thương mại hoặc khác ở Việt Nam",,Mình không có cái này nên bỏ
+6,20,"活動機関の代表取締役・取締役，代表執行役・執行役又は業務を執行する社員（代表権を有する場合はその旨）であることを証する文書","Chứng minh bản thân nằm trong ban quản trị của công ty",,Mình không có cái này nên bỏ
