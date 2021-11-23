@@ -249,4 +249,4 @@ Thăm quan xong thì đến đây lịch trình du lịch của nhóm mình kế
 
 ## 5.2.Ảnh
 Mình đăng ảnh lên fb cá nhân ở đây các bạn có thể tham khảo : 
-https://www.facebook.com/tran.my.77/
+https://www.facebook.com/tran.my.77/posts/4906362592721286
